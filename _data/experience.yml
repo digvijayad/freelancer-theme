@@ -1,0 +1,22 @@
+- class: ""
+  icon: "1.jpg"
+  title: "Fall 2017"
+  sub_title: "Web Designer/Developer- ASU"
+  description: | 
+        Designed and developed a custom Wordpress theme.
+        <br>Expressed communication skills when interacting with client for website.
+        <br>Showed the ability of multi-tasking while working with multiple websites.
+        <br>Exhibited excellent adaptation skills by adapting to the changing requirements 
+        <br>Gained experience in working with a CMS.
+
+- class: "timeline-inverted"
+  icon: "2.jpg"
+  title: "Spring 2016"
+  sub_title: "Research Assistant- ASU"
+  description: | 
+        Installed and Set up a server for Big Data Analysis, which saved money in setting up costs.<br>
+        Created a website using Html, CSS, and Java Script. <br>
+        Successfully complete all jobs by time requested.<br>
+        Updated and managed the programs website.<br>
+        Swiftly helped in setting up and managing the Servers
+

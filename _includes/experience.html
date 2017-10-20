@@ -11,42 +11,42 @@
         <div class="row">
           <div class="col-lg-12">
             <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>Fall 2017</h4>
-                    <h4 class="subheading">Web Designer/Developer- ASU</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted" style="text-align: justify;">Designed and developed a custom Wordpress theme.
-                      <br>Expressed communication skills when interacting with client for website.
-                      <br>Showed the ability of multi-tasking while working with multiple websites.
-                      <br>Exhibited excellent adaptation skills by adapting to the changing requirements 
-                      <br>Gained experience in working with a CMS. </p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>Spring 2016</h4>
-                    <h4 class="subheading">Research Assistant-ASU</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted" style="text-align: justify;">Installed and Set up a server for Big Data Analysis, which saved money in setting up costs.<br>
-                        Created a website using Html, CSS, and Java Script. <br>
-                        Successfully complete all jobs by time requested.<br>
-                        Updated and managed the programs website.<br>
-                        Swiftly helped in setting up and managing the Servers</p>
-                  </div>
-                </div>
-              </li>
+              <!--<li>-->
+              <!--  <div class="timeline-image">-->
+              <!--    <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">-->
+              <!--  </div>-->
+              <!--  <div class="timeline-panel">-->
+              <!--    <div class="timeline-heading">-->
+              <!--      <h4>Fall 2017</h4>-->
+              <!--      <h4 class="subheading">Web Designer/Developer- ASU</h4>-->
+              <!--    </div>-->
+              <!--    <div class="timeline-body">-->
+              <!--      <p class="text-muted" style="text-align: justify;">Designed and developed a custom Wordpress theme.-->
+              <!--        <br>Expressed communication skills when interacting with client for website.-->
+              <!--        <br>Showed the ability of multi-tasking while working with multiple websites.-->
+              <!--        <br>Exhibited excellent adaptation skills by adapting to the changing requirements -->
+              <!--        <br>Gained experience in working with a CMS. </p>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--</li>-->
+              <!--<li class="timeline-inverted">-->
+              <!--  <div class="timeline-image">-->
+              <!--    <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">-->
+              <!--  </div>-->
+              <!--  <div class="timeline-panel">-->
+              <!--    <div class="timeline-heading">-->
+              <!--      <h4>Spring 2016</h4>-->
+              <!--      <h4 class="subheading">Research Assistant-ASU</h4>-->
+              <!--    </div>-->
+              <!--    <div class="timeline-body">-->
+              <!--      <p class="text-muted" style="text-align: justify;">Installed and Set up a server for Big Data Analysis, which saved money in setting up costs.<br>-->
+              <!--          Created a website using Html, CSS, and Java Script. <br>-->
+              <!--          Successfully complete all jobs by time requested.<br>-->
+              <!--          Updated and managed the programs website.<br>-->
+              <!--          Swiftly helped in setting up and managing the Servers</p>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--</li>-->
 <!--               <li>
                 <div class="timeline-image">
                   <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
@@ -75,11 +75,28 @@
                   </div>
                 </div>
               </li> -->
+              {% for exp in site.data.experience %}
+              <li class="{{exp.class}}">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/{{exp.icon}}" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>{{exp.title}}</h4>
+                    <h4 class="subheading">{{exp.sub_title}}</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted" style="text-align: justify;">{{exp.description}}</p>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+              
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <h4>Be Part
-                    <br>Of Our
-                    <br>Story!</h4>
+                  <h4>Hire me! and
+                    <br>Be Part Of 
+                    <br>Journey!</h4>
                 </div>
               </li>
             </ul>
