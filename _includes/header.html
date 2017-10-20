@@ -1,7 +1,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">Digvijay Naruka</a>
+    <a class="navbar-brand js-scroll-trigger" data-target="#page-top" href="{{site.github.url}}/#page-top">{{site.title}}</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu
       <i class="fa fa-bars"></i>
@@ -9,13 +9,16 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          <a class="nav-link js-scroll-trigger" data-target="#portfolio" href="{{site.github.url}}/#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          <a class="nav-link js-scroll-trigger" data-target="#about" href="{{site.github.url}}/#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          <a class="nav-link js-scroll-trigger" data-target="#experience" href="{{site.github.url}}/#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="{{site.github.url}}/blog">Blog</a>
         </li>
       </ul>
     </div>
@@ -30,7 +33,7 @@
   <div class="container">
     <img class="img-fluid" src="img/business profile.png" width="250px" height="250px" alt="" style="border-radius: 50%;">
     <div class="intro-text">
-      <span class="name">Digvijay Naruka</span>
+      <span class="name">{{site.title}}</span>
       <hr class="star-light">
       <span class="skills">A Computer Science Student - Alabama State University - Looking for Jobs</span>
     </div>
