@@ -1,7 +1,16 @@
-Freelancer Jekyll theme  
+Freelancer Jekyll theme  [![Build Status](https://travis-ci.org/digvijayad/freelancer-theme.svg?branch=master)](https://travis-ci.org/digvijayad/freelancer-theme)
 =========================
 
 Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/) and the timeline from [Agency bootstrap theme](http://startbootstrap.com/template-overviews/agency/) 
+## Features: 
+ - Header Image
+ - Timeline from Agency Theme [Agency Theme Timeline](https://blackrockdigital.github.io/startbootstrap-agency/#about)
+ - 
+## Preview 
+![screenshot](https://user-images.githubusercontent.com/19765483/31866545-c52cf0ae-b746-11e7-9f00-6b0c3fa21ca3.PNG)
+
+## Live Demo
+View this jekyll theme in action [here](https://digvijayad.github.io/freelancer-theme)
 
 ## How to use
  #### Site Variables
@@ -85,13 +94,6 @@ Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/te
         If you want a paragragh then remove the `br` tags .<br>
 
 ```
-
- 
-## Demo
-View this jekyll theme in action [here](https://digvijayad.github.io/freelancer-theme)
-
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/digvijayad/freelancer-theme/master/screenshot.png)
 
 ---------
 For more details, read the [documentation](http://jekyllrb.com/)
