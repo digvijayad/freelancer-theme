@@ -5,111 +5,179 @@
   description: "Displayed skills in adapting to new software. Learn Maya (3D modeling) and Unity3D (Game Engine). Gained experience on working on a long term project. Showed exceptional patience in debugging and testing."
   points: 
     - title: "Type"
-      href: "https://bitbucket.com/digvijayad/Alien-escapade"
-      text: "Endless Runner Mobile Game"
+      links:
+        - title: "Endless Runner Mobile Game"
+          href: https://bitbucket.com/digvijayad/Alien-escapade
     - title: "Date"
-      href: "#"
-      text: "December 2016"
-    - title: "Tools Used"
-      href: "https://unity3d.com"
-      text: "unity3d"
+      links:
+        - title: "December 2016"
+          href: "#"
+    - title: "Technologies Used"
+      links:
+        - title: "Unity3D"
+          href: https://unity3d.com
+        - title: "Autodesk Maya"
+          href: https://www.autodesk.com/products/maya/overview
+        - title: "Visual Studio"
+          href: https://www.visualstudio.com/
+        - title: "Game Dev"
+          href: "#"
     - title: "Languages"
-      href: "#"
-      text: "C#, CGShader"
+      links:
+        - title: "C#"
+          href: "#"
+        - title: "CGShader"
+          href: "#"
     
 - id: "portfolioModal2"
-  title: "Alien Escapade"
+  title: "Wimbledon Sentiment Analysis"
   pic_name: "cake.png"
   icon_name: "cake.png"
-  description: "Displayed skills in adapting to new software. Learn Maya (3D modeling) and Unity3D (Game Engine). Gained experience on working on a long term project. Showed exceptional patience in debugging and testing."
+  description: | 
+    Determines the sentiment of a tweet on a specific Tennis player.
+    It fetches a live tweet from twitter, differentiates it as Positive or Negative using Natural Language Processing, and finally displays the data on a graph.
   points: 
     - title: "Type"
-      href: "https://bitbucket.com/digvijayad/Alien-escapade"
-      text: "Endless Runner Mobile Game"
+      links:
+        - title: "GUI, Data Analysis"
+          href: https://github.com/digvijayad/Wimbledon-Sentiment-Analysis
     - title: "Date"
-      href: "#"
-      text: "December 2016"
-    - title: "Tools Used"
-      href: "https://unity3d.com"
-      text: "unity3d"
+      links:
+        - title: "June 2015"
+          href: "#"
+    - title: "Technologies/Libraries used"
+      links:
+        - title: "PyQt"
+          href: https://riverbankcomputing.com/software/pyqt/intro
+        - title: "Natural Language Toolkit(NLTK)"
+          href: http://www.nltk.org/
+        - title: "MatplotLib"
+          href: https://matplotlib.org/
+        - title: "Sublime Text"
+          href: https://sublimetext.com
+        - title: "Sentiment Analysis"
+          href: https://en.wikipedia.org/wiki/Sentiment_analysis
     - title: "Languages"
-      href: "#"
-      text: "C#, CGShader"
+      links:
+        - title: "Python 3"
+          href: https://www.python.org/
     
 - id: "portfolioModal3"
-  title: "Alien Escapade"
+  title: "Pong 2d"
   pic_name: "circus.png"
   icon_name: "circus.png"
-  description: "Displayed skills in adapting to new software. Learn Maya (3D modeling) and Unity3D (Game Engine). Gained experience on working on a long term project. Showed exceptional patience in debugging and testing."
+  description: |
+    Created a pong game in java. You can to play against a Cpu or another player.
+    Coded the Ai for cpu from scratch using physics to predict the point of impact.
   points: 
     - title: "Type"
-      href: "https://bitbucket.com/digvijayad/Alien-escapade"
-      text: "Endless Runner Mobile Game"
+      links:
+        - title: "Game"
+          href: "#"
     - title: "Date"
-      href: "#"
-      text: "December 2016"
-    - title: "Tools Used"
-      href: "https://unity3d.com"
-      text: "unity3d"
+      links:
+        - title: "December 2015"
+          href: "#"
+    - title: "Technologies/Libraries Used"
+      links:
+        - title: "libGDX"
+          href: https://libgdx.badlogicgames.com/
+        - title: "Game Dev"
+          href: "#"
     - title: "Languages"
-      href: "#"
-      text: "C#, CGShader"
+      links:
+        - title: "Java"
+          href: https://www.oracle.com/java/index.html
     
 - id: "portfolioModal4"
-  title: "Alien Escapade"
+  title: "Buziness"
   pic_name: "game.png"
   icon_name: "game.png"
-  description: "Displayed skills in adapting to new software. Learn Maya (3D modeling) and Unity3D (Game Engine). Gained experience on working on a long term project. Showed exceptional patience in debugging and testing."
+  description: |
+    a clean wordpress theme using the underscores framework.
+    Customize your front page, Color schemes, Footers, and more live from the wordpress customizer.
   points: 
     - title: "Type"
-      href: "https://bitbucket.com/digvijayad/Alien-escapade"
-      text: "Endless Runner Mobile Game"
+      links:
+        - title: "Web Design/Development Wordpress"
+          href: https://bitbucket.com/digvijayad/buziness
     - title: "Date"
-      href: "#"
-      text: "December 2016"
-    - title: "Tools Used"
-      href: "https://unity3d.com"
-      text: "unity3d"
+      links:
+        - title: "August 2017"
+          href: "#"
+    - title: "Technologies Used"
+      links:
+        - title: "Wordpress"
+          href: https://wordpress.org
+        - title: "Sublime Text"
+          href: https://sublimetext.com
     - title: "Languages"
-      href: "#"
-      text: "C#, CGShader"
+      links:
+        - title: "PHP"
+          href: "www.php.net"
+        - title: "HTML"
+          href: https://en.wikipedia.org/wiki/HTML
+        - title: "CSS"
+          href: http://www.css3.info/
+        - title: "JQuery"
+          href: https://jquery.com/
+          
     
 - id: "portfolioModal5"
-  title: "Alien Escapade"
+  title: "Word Automation Program"
   pic_name: "safe.png"
   icon_name: "safe.png"
-  description: "Displayed skills in adapting to new software. Learn Maya (3D modeling) and Unity3D (Game Engine). Gained experience on working on a long term project. Showed exceptional patience in debugging and testing."
+  description: | 
+    Takes a word document as input to process, clean, and format
+    it into Research Magazine format. It keeps intact all the special characters.
   points: 
     - title: "Type"
-      href: "https://bitbucket.com/digvijayad/Alien-escapade"
-      text: "Endless Runner Mobile Game"
+      links:
+        - title: "Automation Program"
+          href: "#"
     - title: "Date"
-      href: "#"
-      text: "December 2016"
-    - title: "Tools Used"
-      href: "https://unity3d.com"
-      text: "unity3d"
+      links:
+        - title: "August 2016"
+          href: "#"
+    - title: "Technologies Used"
+      links:
+        - title: "Microsoft Word API"
+          href: https://msdn.microsoft.com/en-us/library/office/fp179696.aspx
+        - title: "Sublime Text"
+          href: https://sublimetext.com
     - title: "Languages"
-      href: "#"
-      text: "C#, CGShader"
+      links:
+        - title: "C#"
+          href: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
     
 - id: "portfolioModal6"
-  title: "Alien Escapade"
+  title: "Global Link Software"
   pic_name: "submarine.png"
   icon_name: "submarine.png"
-  description: "Displayed skills in adapting to new software. Learn Maya (3D modeling) and Unity3D (Game Engine). Gained experience on working on a long term project. Showed exceptional patience in debugging and testing."
+  description: |
+    Designed and developed a specific Cable service software using Python, MySQL,
+    and PYQT that automates the process of managing the data used by cable operators. 
   points: 
     - title: "Type"
-      href: "https://bitbucket.com/digvijayad/Alien-escapade"
-      text: "Endless Runner Mobile Game"
+      links:
+        - title: "GUI | Database"
+          href: "#"
     - title: "Date"
-      href: "#"
-      text: "December 2016"
-    - title: "Tools Used"
-      href: "https://unity3d.com"
-      text: "unity3d"
+      links:
+        - title: "July 2015"
+          href: "#"
+    - title: "Technologies Used"
+      links:
+        - title: "PyQT"
+          href: https://riverbankcomputing.com/software/pyqt/intro
+        - title: "MySQL"
+          href: https://www.mysql.com/
+        - title: "Sublime Text"
+          href: https://sublimetext.com
+
     - title: "Languages"
-      href: "#"
-      text: "C#, CGShader"
+      links:
+        - title: "python 3"
+          href: https://python.org
     
     

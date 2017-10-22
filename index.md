@@ -13,5 +13,5 @@ title: Home
     {% include about.html %}
     {% include experience.html %}
     {% include portfolio-models.html %}
-    
+
 </div>

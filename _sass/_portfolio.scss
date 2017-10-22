@@ -1,4 +1,26 @@
 // Styling for the portfolio section
+  @media screen and (min-width:570px){
+  .caption{
+    opacity: 0 !important;
+    position: absolute  !important;
+    height: 100% !important;
+     &:hover {
+          opacity: 1 !important;
+      }
+    .title{
+        top: 70% !important;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+    .caption-content{
+      
+      i{
+        opacity: 1 !important;
+      }
+    }
+  }
+}
 #portfolio {
   .portfolio-item {
     right: 0;
@@ -10,13 +32,16 @@
       margin: 0 auto;
       cursor: pointer;
       .caption {
-        position: absolute;
+        position: relative;
+        // position: absolute;
         width: 100%;
-        height: 100%;
+        // height: 100%;
+        height: 40px;
         -webkit-transition: all ease 0.5s;
         -moz-transition: all ease 0.5s;
         transition: all ease 0.5s;
-        opacity: 0;
+        // opacity: 0;
+        opacity: 1;
         background: fade-out($theme-success, .1);
         &:hover {
           opacity: 1;
@@ -32,6 +57,7 @@
           color: white;
           i {
             margin-top: -12px;
+            opacity: 0;
           }
           h3,
           h4 {
@@ -45,6 +71,7 @@
     z-index: 2;
   }
 }
+
 @media(min-width:767px) {
   #portfolio {
     .portfolio-item {

@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Get in touch!
+title: Let us discuss things!
 permalink: /blog/
 ---
