@@ -5,17 +5,14 @@
         <h2 class="text-center">Portfolio</h2>
         <hr class="star-primary">
         <div class="row">
-
           {% for project in site.data.projects%}
           <div class="col-sm-4 portfolio-item">
             <a class="portfolio-link" href="#portfolioModal-{{project.id}}" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
                   <i class="fa fa-search-plus fa-3x"></i>
-                  
                 </div>
                 <div class="caption-content title">
-                  
                   <p>{{project.title}}</p>
                 </div>
               </div>

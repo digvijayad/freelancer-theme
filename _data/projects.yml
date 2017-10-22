@@ -1,183 +1,183 @@
 - id: "1"
-  title: "Alien Escapade"
+  title: "Project 1"
   pic_name: "cabin.png"
-  icon_name: "game.png"
-  description: "Displayed skills in adapting to new software. Learn Maya (3D modeling) and Unity3D (Game Engine). Gained experience on working on a long term project. Showed exceptional patience in debugging and testing."
-  points: 
-    - title: "Type"
-      links:
-        - title: "Endless Runner Mobile Game"
-          href: https://bitbucket.com/digvijayad/Alien-escapade
+  icon_name: "cabin.png"
+  description: |
+    Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons.
+    On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+  
+  points:                                 # Add as many points as necessary
+    - title: "Client"
+      links:                                # Add as many links as necessary(look at Example 1)
+        - title: "Start Bootstrap"
+          href: https://startbootstrap.com/
     - title: "Date"
       links:
         - title: "December 2016"
           href: "#"
-    - title: "Technologies Used"
-      links:
-        - title: "Unity3D"
-          href: https://unity3d.com
-        - title: "Autodesk Maya"
-          href: https://www.autodesk.com/products/maya/overview
-        - title: "Visual Studio"
-          href: https://www.visualstudio.com/
-        - title: "Game Dev"
+    - title: "Services"
+      links:                                # Example 1:
+        - title: "Web Development"
+          href: https://startbootstrap.com
+        - title: "Web Design"
+          href: https://startbootstrap.com
           href: "#"
     - title: "Languages"
       links:
-        - title: "C#"
+        - title: "html"
           href: "#"
-        - title: "CGShader"
+        - title: "SCSS"
           href: "#"
     
 - id: "2"
-  title: "Wimbledon Sentiment Analysis"
+  title: "Project 2"
   pic_name: "cake.png"
   icon_name: "cake.png"
-  description: | 
-    Determines the sentiment of a tweet on a specific Tennis player.
-    It fetches a live tweet from twitter, differentiates it as Positive or Negative using Natural Language Processing, and finally displays the data on a graph.
+  description: |
+    Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons.
+    On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
   points: 
-    - title: "Type"
+    - title: "Client"
       links:
-        - title: "GUI, Data Analysis"
-          href: https://github.com/digvijayad/Wimbledon-Sentiment-Analysis
+        - title: "Start Bootstrap"
+          href: https://startbootstrap.com/
     - title: "Date"
       links:
-        - title: "June 2015"
+        - title: "December 2016"
           href: "#"
-    - title: "Technologies/Libraries used"
+    - title: "Services"
       links:
-        - title: "PyQt"
-          href: https://riverbankcomputing.com/software/pyqt/intro
-        - title: "Natural Language Toolkit(NLTK)"
-          href: http://www.nltk.org/
-        - title: "MatplotLib"
-          href: https://matplotlib.org/
-        - title: "Sublime Text"
-          href: https://sublimetext.com
-        - title: "Sentiment Analysis"
-          href: https://en.wikipedia.org/wiki/Sentiment_analysis
+        - title: "Web Development"
+          href: https://startbootstrap.com
+        - title: "Web Design"
+          href: https://startbootstrap.com
+          href: "#"
     - title: "Languages"
       links:
-        - title: "Python 3"
-          href: https://www.python.org/
+        - title: "html"
+          href: "#"
+        - title: "SCSS"
+          href: "#"
     
 - id: "3"
-  title: "Pong 2d"
+  title: "Project 3"
   pic_name: "circus.png"
   icon_name: "circus.png"
   description: |
-    Created a pong game in java. You can to play against a Cpu or another player.
-    Coded the Ai for cpu from scratch using physics to predict the point of impact.
+    Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons.
+    On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
   points: 
-    - title: "Type"
+    - title: "Client"
       links:
-        - title: "Game"
-          href: "#"
+        - title: "Start Bootstrap"
+          href: https://startbootstrap.com/
     - title: "Date"
       links:
-        - title: "December 2015"
+        - title: "December 2016"
           href: "#"
-    - title: "Technologies/Libraries Used"
+    - title: "Services"
       links:
-        - title: "libGDX"
-          href: https://libgdx.badlogicgames.com/
-        - title: "Game Dev"
+        - title: "Web Development"
+          href: https://startbootstrap.com
+        - title: "Web Design"
+          href: https://startbootstrap.com
           href: "#"
     - title: "Languages"
       links:
-        - title: "Java"
-          href: https://www.oracle.com/java/index.html
+        - title: "html"
+          href: "#"
+        - title: "SCSS"
+          href: "#"
     
 - id: "4"
-  title: "Buziness"
+  title: "Project 4"
   pic_name: "game.png"
   icon_name: "game.png"
   description: |
-    a clean wordpress theme using the underscores framework.
-    Customize your front page, Color schemes, Footers, and more live from the wordpress customizer.
+    Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons.
+    On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
   points: 
-    - title: "Type"
+    - title: "Client"
       links:
-        - title: "Web Design/Development Wordpress"
-          href: https://bitbucket.com/digvijayad/buziness
+        - title: "Start Bootstrap"
+          href: https://startbootstrap.com/
     - title: "Date"
       links:
-        - title: "August 2017"
+        - title: "December 2016"
           href: "#"
-    - title: "Technologies Used"
+    - title: "Services"
       links:
-        - title: "Wordpress"
-          href: https://wordpress.org
-        - title: "Sublime Text"
-          href: https://sublimetext.com
+        - title: "Web Development"
+          href: https://startbootstrap.com
+        - title: "Web Design"
+          href: https://startbootstrap.com
+          href: "#"
     - title: "Languages"
       links:
-        - title: "PHP"
-          href: "www.php.net"
-        - title: "HTML"
-          href: https://en.wikipedia.org/wiki/HTML
-        - title: "CSS"
-          href: http://www.css3.info/
-        - title: "JQuery"
-          href: https://jquery.com/
+        - title: "html"
+          href: "#"
+        - title: "SCSS"
+          href: "#"
           
     
 - id: "5"
-  title: "Word Automation Program"
+  title: "Project 5"
   pic_name: "safe.png"
   icon_name: "safe.png"
-  description: | 
-    Takes a word document as input to process, clean, and format
-    it into Research Magazine format. It keeps intact all the special characters.
+  description: |
+    Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons.
+    On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
   points: 
-    - title: "Type"
+    - title: "Client"
       links:
-        - title: "Automation Program"
-          href: "#"
+        - title: "Start Bootstrap"
+          href: https://startbootstrap.com/
     - title: "Date"
       links:
-        - title: "August 2016"
+        - title: "December 2016"
           href: "#"
-    - title: "Technologies Used"
+    - title: "Services"
       links:
-        - title: "Microsoft Word API"
-          href: https://msdn.microsoft.com/en-us/library/office/fp179696.aspx
-        - title: "Sublime Text"
-          href: https://sublimetext.com
+        - title: "Web Development"
+          href: https://startbootstrap.com
+        - title: "Web Design"
+          href: https://startbootstrap.com
+          href: "#"
     - title: "Languages"
       links:
-        - title: "C#"
-          href: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
+        - title: "html"
+          href: "#"
+        - title: "SCSS"
+          href: "#"
     
 - id: "6"
-  title: "Global Link Software"
+  title: "Project 6"
   pic_name: "submarine.png"
   icon_name: "submarine.png"
   description: |
-    Designed and developed a specific Cable service software using Python, MySQL,
-    and PYQT that automates the process of managing the data used by cable operators. 
+    Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons.
+    On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
   points: 
-    - title: "Type"
+    - title: "Client"
       links:
-        - title: "GUI | Database"
-          href: "#"
+        - title: "Start Bootstrap"
+          href: https://startbootstrap.com/
     - title: "Date"
       links:
-        - title: "July 2015"
+        - title: "December 2016"
           href: "#"
-    - title: "Technologies Used"
+    - title: "Services"
       links:
-        - title: "PyQT"
-          href: https://riverbankcomputing.com/software/pyqt/intro
-        - title: "MySQL"
-          href: https://www.mysql.com/
-        - title: "Sublime Text"
-          href: https://sublimetext.com
-
+        - title: "Web Development"
+          href: https://startbootstrap.com
+        - title: "Web Design"
+          href: https://startbootstrap.com
+          href: "#"
     - title: "Languages"
       links:
-        - title: "python 3"
-          href: https://python.org
+        - title: "html"
+          href: "#"
+        - title: "SCSS"
+          href: "#"
     
     

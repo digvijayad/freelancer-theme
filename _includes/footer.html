@@ -4,44 +4,27 @@
         <div class="container">
           <div class="row">
             <div class="footer-col col-md-4">
-              <h3>Location</h3>
-              <p>915 S Jackson Street
-                <br>Montgomery, AL 36104</p>
+              <h3>{{site.footer.location}}</h3>
+              <p> {% for address in site.address %}
+                {{ address.line }} <br>
+                {% endfor %}
+              </p>
             </div>
             <div class="footer-col col-md-4">
-              <h3>Around the Web</h3>
+              <h3>{{site.footer.social}}</h3>
               <ul class="list-inline">
+                {% for social in site.social %}
                 <li class="list-inline-item">
-                  <a class="btn-social btn-outline" target="_blank" href="https://stackoverflow.com/users/4714773/digvijayad">
-                    <i class="fa fa-fw fa-stack-overflow"></i>
+                  <a class="btn-social btn-outline" target="_blank" href="{{social.url}}">
+                    <i class="fa fa-fw fa-{{social.title}}"></i>
                   </a>
                 </li>
-                <li class="list-inline-item">
-                  <a class="btn-social btn-outline" href="#">
-                    <i class="fa fa-fw fa-google-plus"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-social btn-outline" target="_blank" href="https://bitbucket.com/digvijayad">
-                    <i class="fa fa-fw fa-bitbucket"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-social btn-outline" target="_blank" href="https://www.linkedin.com/in/digvijay-naruka/">
-                    <i class="fa fa-fw fa-linkedin "></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-social btn-outline" target="_blank" href="https://github.com/digvijayad">
-                    <i class="fa fa-fw fa-github"></i>
-                  </a>
-                </li>
+                {% endfor %}
               </ul>
             </div>
             <div class="footer-col col-md-4">
-              <h3>About Digvijay</h3>
-              <p>Digvijay is a soon to be a graduate from Alabama State University, excited to participate in the real world.
-                <!-- <a href="http://startbootstrap.com">Start Bootstrap</a>--></p> 
+              <h3>{{site.footer.credits}}</h3>
+              <p>{{site.credits}}</p> 
             </div>
           </div>
         </div>
@@ -50,7 +33,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              Email - MyFirstName_lastName@outlook
+              Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
             </div>
           </div>
         </div>
@@ -63,18 +46,3 @@
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>
-    
-        <!-- Bootstrap core JavaScript -->
-    <script src="{{site.github.url}}/vendor/jquery/jquery.min.js"></script>
-    <script src="{{site.github.url}}/vendor/popper/popper.min.js"></script>
-    <script src="{{site.github.url}}/vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="{{site.github.url}}/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <!--<script src="{{site.github.url}}/js/jqBootstrapValidation.js"></script>-->
-    <!--<script src="{{site.github.url}}/js/contact_me.js"></script>-->
-
-    <!-- Custom scripts for this template -->
-    <script src="{{site.github.url}}/js/main.min.js"></script>

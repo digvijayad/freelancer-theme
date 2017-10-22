@@ -19,16 +19,12 @@
                   <ul class="list-inline item-details">
                     {% for point in project.points %}
                     <li>{{point.title}}:
-                    
                       <strong>
-                        
                         {% for link in point.links %}
                             <a {% if link.href != '#' %} target="_blank" {% endif %} href="{{link.href}} ">{{link.title}}</a>
                             {% if point.links.last != link %},{% endif %}
                         {% endfor %}
- 
                       </strong>
-                      
                     </li>
                     {% endfor %}
                   </ul>

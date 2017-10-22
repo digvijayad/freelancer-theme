@@ -2,23 +2,17 @@
   icon: "1.jpg"
   icon-alt: "image-alt"
   title: "Fall 2017"
-  sub_title: "Web Designer/Developer- ASU"
+  sub_title: "SubTitle"
   description: | 
-        Designed and developed a custom Wordpress theme.
-        <br>Expressed communication skills when interacting with the client.
-        <br>Showed the ability of multi-tasking while working with multiple websites.
-        <br>Exhibited excellent adaptation skills by adapting to the change of requirements.
-        <br>Gained experience in working with a CMS.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente,
+        totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
 
 - class: "timeline-inverted"
   icon: "2.jpg"
   icon-alt: "image-alt"
   title: "Spring 2016"
-  sub_title: "Research Assistant- ASU"
+  sub_title: "SubTitle"
   description: | 
-        Installed and Set up a server for Big Data Analysis, which saved money in setting up costs.<br>
-        Created a website using HTML, CSS, and JavaScript. <br>
-        Successfully completed all the jobs within the time-limit.<br>
-        Updated and managed the program's website.<br>
-        Swiftly helped in setting up and managing the Servers.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente,
+        totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
 

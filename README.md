@@ -4,6 +4,9 @@ Freelancer Jekyll theme
 Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/) and the timeline from [Agency bootstrap theme](http://startbootstrap.com/template-overviews/agency/) 
 
 ## How to use
+ #### Site Variables
+ - Set your site content such as name, title, footer in `_config.yml`
+ 
  #### Header Image
  - Place your Header Background image in `/img/` and change the value of `header-bg` in `_config.yml` to the image name.
  - If you don't want a header image then add a `#` before the `header-bg` to comment it out.
