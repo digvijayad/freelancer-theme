@@ -1,11 +1,11 @@
 // Styling for the portfolio section
-  @media screen and (min-width:570px){
+@media screen and (min-width:570px){
   .caption{
     opacity: 0 !important;
     position: absolute  !important;
     height: 100% !important;
      &:hover {
-          opacity: 1 !important;
+        opacity: 1 !important;
       }
     .title{
         top: 70% !important;
@@ -14,7 +14,6 @@
         height: 100%;
       }
     .caption-content{
-      
       i{
         opacity: 1 !important;
       }

@@ -17,9 +17,11 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" data-target="#experience" href="{{site.github.url}}/#experience">Experience</a>
         </li>
+        {% if site.set-blog %}
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="{{site.github.url}}/blog">Blog</a>
         </li>
+        {% endif %}
       </ul>
     </div>
   </div>
@@ -27,9 +29,9 @@
 
 <!-- Header -->
 <header class="masthead" 
-    style="background-image: url('{{site.github.url}}/img/background-01.jpg');
+    style="{% if site.header-bg %} background-image: url('{{site.github.url}}/img/{{site.header-bg}}'); {% endif %}
           background-position: center;
-          background-size: cover;" title="Background vector created by Starline - Freepik.com">
+          background-size: cover;" title="{{site.header-bg-title}}">
   <div class="container">
     <img class="img-fluid" src="{{site.github.url}}/img/business profile.png" width="250px" height="250px" alt="" style="border-radius: 50%;">
     <div class="intro-text">

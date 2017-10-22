@@ -1,5 +1,6 @@
 - class: ""
   icon: "1.jpg"
+  icon-alt: "image-alt"
   title: "Fall 2017"
   sub_title: "Web Designer/Developer- ASU"
   description: | 
@@ -11,6 +12,7 @@
 
 - class: "timeline-inverted"
   icon: "2.jpg"
+  icon-alt: "image-alt"
   title: "Spring 2016"
   sub_title: "Research Assistant- ASU"
   description: | 

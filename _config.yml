@@ -22,6 +22,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  digvijayad
+set-blog: true
+header-bg: background-01.jpg
+header-bg-title: Background vector created by Starline - Freepik.com
 
 # Build settings
 markdown: kramdown
