@@ -7,7 +7,7 @@ install:
     - gem install sass -v 3.5.1
     - gem install kramdown
 script: 
-    - jekyll build
+    - bundle exec jekyll build
 
 sudo: false
 exclude: [vendor]
