@@ -4,6 +4,7 @@ rvm:
 
 install: 
     - gem install github-pages
+    - gem install sass -v 3.5.1
 script: 
     - jekyll build
 
