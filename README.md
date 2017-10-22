@@ -5,7 +5,8 @@ Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/te
 ## Features: 
  - Header Image
  - Timeline from Agency Theme [Agency Theme Timeline](https://blackrockdigital.github.io/startbootstrap-agency/#about)
- - 
+ - Blog
+ 
 ## Preview 
 ![screenshot](https://user-images.githubusercontent.com/19765483/31866545-c52cf0ae-b746-11e7-9f00-6b0c3fa21ca3.PNG)
 
